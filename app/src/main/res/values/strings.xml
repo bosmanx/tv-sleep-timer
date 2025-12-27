@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">TV Sleep</string>
+    <string name="accessibility_service_description">Detects the RED button on your remote to toggle the Sleep Timer without interrupting your current app.</string>
+    
+    <!-- Disclosure Dialog -->
+    <string name="disclosure_title">Accessibility Service Disclosure</string>
+    <string name="disclosure_message">This app uses the AccessibilityService API to detect when you press the RED button on your remote control.\n\nThis is the ONLY way the app can function while you are using other apps (like Netflix or YouTube).\n\n• NO personal data is collected.\n• NO screen content is read.\n• NO data is shared with third parties.</string>
+    <string name="disclosure_agree">I UNDERSTAND</string>
+    <string name="disclosure_exit">EXIT APP</string>
+</resources>
+

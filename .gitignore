@@ -1,0 +1,30 @@
+*.iml
+.gradle
+/local.properties
+/.idea/
+/build/
+/captures
+.externalNativeBuild
+.cxx
+
+# Gradle
+.gradle/
+build/
+
+# Built artifacts
+*.apk
+*.aar
+*.zip
+*.tar.gz
+
+# IGNORE ALL LOCAL HELPER SCRIPTS (contain private IPs/paths)
+/*.ps1
+/*.md
+!/README.md
+!/PRIVACY_POLICY.md
+
+# IGNORE LOCAL ANDROID PROJECT FILES
+/sleep_timer_extracted/
+/sleep_timer.apk
+/sleep_timer.zip
+/sleep_timer.apk.idsig

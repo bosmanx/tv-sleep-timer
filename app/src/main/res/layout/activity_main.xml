@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:background="#1a1a1a">
+
+    <!-- App Title -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TV SLEEP TIMER"
+        android:textSize="32sp"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        android:layout_marginBottom="15dp" />
+
+    <!-- Service Status -->
+    <TextView
+        android:id="@+id/statusText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Checking service status..."
+        android:textSize="18sp"
+        android:textColor="#FFD700"
+        android:background="#2a2a2a"
+        android:padding="15dp"
+        android:layout_marginBottom="15dp" />
+
+    <!-- Setup Button (shown when service is not enabled) -->
+    <Button
+        android:id="@+id/btnSetup"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="⚙️ OPEN ACCESSIBILITY SETTINGS"
+        android:textSize="18sp"
+        android:textColor="#FFFFFF"
+        android:background="#FF5722"
+        android:visibility="gone"
+        android:focusable="true"
+        android:layout_marginBottom="15dp" />
+
+    <!-- WRITE_SETTINGS Permission Button -->
+    <Button
+        android:id="@+id/btnWriteSettings"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="📝 GRANT WRITE_SETTINGS PERMISSION"
+        android:textSize="18sp"
+        android:textColor="#FFFFFF"
+        android:background="#FF9800"
+        android:visibility="gone"
+        android:focusable="true"
+        android:layout_marginBottom="20dp" />
+
+    <!-- Usage Guide -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="📖 HOW TO USE"
+        android:textSize="20sp"
+        android:textColor="#4CAF50"
+        android:textStyle="bold"
+        android:layout_marginBottom="10dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="1. Enable Accessibility Service\n2. Close this app\n3. Press RED button: 60 min → 30 min → 15 min → 5 sec → OFF\n4. Enjoy your show! 📺"
+        android:textSize="16sp"
+        android:textColor="#CCCCCC"
+        android:lineSpacingExtra="4dp"
+        android:layout_marginBottom="20dp" />
+
+    <!-- ScrollView for device info -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="#2a2a2a"
+        android:padding="10dp">
+
+        <TextView
+            android:id="@+id/deviceInfo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Loading device information..."
+            android:textSize="14sp"
+            android:textColor="#AAAAAA"
+            android:fontFamily="monospace"
+            android:lineSpacingExtra="2dp" />
+    </ScrollView>
+
+</LinearLayout>

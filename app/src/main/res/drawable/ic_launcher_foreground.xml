@@ -1,0 +1,15 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Crescent Moon -->
+    <path
+        android:fillColor="#FFD700"
+        android:pathData="M55,30C45,30 35,38 35,50C35,62 45,70 55,70C60,70 65,68 68,65C62,65 57,60 57,50C57,40 62,35 68,35C65,32 60,30 55,30Z" />
+    <!-- Zzz -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M65,40l5,0l-5,5l5,0 M72,32l3,0l-3,3l3,0" />
+</vector>
+
