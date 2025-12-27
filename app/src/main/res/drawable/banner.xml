@@ -4,27 +4,27 @@
     android:viewportWidth="320"
     android:viewportHeight="180">
 
-    <!-- Background: Deep Charcoal to match app theme -->
+    <!-- Background: Deep Charcoal -->
     <path
         android:fillColor="#1A1A1A"
         android:pathData="M0,0h320v180h-320z" />
 
-    <!-- Soft Gradient-like Circle in the background -->
+    <!-- Soft Glow -->
     <path
-        android:fillAlpha="0.1"
+        android:fillAlpha="0.05"
         android:fillColor="#FFD700"
         android:pathData="M160,90m-70,0a70,70 0,1 1,140 0a70,70 0,1 1,-140 0" />
 
-    <!-- Crescent Moon Icon -->
+    <!-- Realistic Crescent Moon (Centered) -->
     <path
         android:fillColor="#FFD700"
-        android:pathData="M175.7,60.5C161.4,55.1 145.4,57.7 133.7,66.8C121.9,76 116,90.4 118.2,105.1C120.4,119.8 130.4,132.3 144.1,137.7C145.7,138.3 147.4,137.5 147.9,135.9C148.1,135.4 148.1,134.8 147.9,134.3C143.2,122.9 145.3,110 153.3,100.4C161.3,90.9 173.8,86.4 185.8,88.7C187.4,89 189,88 189.3,86.4C189.4,85.8 189.4,85.2 189.2,84.7C186.2,74.5 180,65.6 175.7,60.5Z" />
+        android:pathData="M185.7,65.5c-14.3,-5.4 -30.3,-2.8 -42.1,6.3c-11.8,9.2 -17.7,23.6 -15.5,38.3c2.2,14.7 12.2,27.2 25.9,32.6c1.6,0.6 3.3,-0.2 3.8,-1.8c0.2,-0.6 0.2,-1.1 0,-1.7c-4.7,-11.4 -2.6,-24.3 5.4,-33.9s20.5,-14 32.5,-11.7c1.6,0.3 3.2,-0.7 3.5,-2.4c0.1,-0.5 0.1,-1.1 0,-1.6c-3,-10.1 -9.2,-19 -13.5,-24.1z" />
 
     <!-- Zzz Symbols -->
     <path
         android:fillColor="#FFFFFF"
         android:fillAlpha="0.6"
-        android:pathData="M195,55l8,0l-8,8l8,0M205,45l5,0l-5,5l5,0M212,38l3,0l-3,3l3,0" />
+        android:pathData="M205,60l8,0l-8,8l8,0M215,50l5,0l-5,5l5,0M222,43l3,0l-3,3l3,0" />
 
     <!-- Bottom Accent Line -->
     <path
@@ -32,4 +32,3 @@
         android:pathData="M0,176h320v4h-320z" />
 
 </vector>
-

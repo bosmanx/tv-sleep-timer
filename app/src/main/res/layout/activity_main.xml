@@ -6,6 +6,16 @@
     android:padding="20dp"
     android:background="#1a1a1a">
 
+    <!-- App Banner -->
+    <ImageView
+        android:id="@+id/appBanner"
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:src="@drawable/banner"
+        android:scaleType="centerCrop"
+        android:layout_marginBottom="15dp"
+        android:contentDescription="TV Sleep Banner" />
+
     <!-- App Title -->
     <TextView
         android:layout_width="wrap_content"
@@ -36,9 +46,12 @@
         android:text="⚙️ OPEN ACCESSIBILITY SETTINGS"
         android:textSize="18sp"
         android:textColor="#FFFFFF"
-        android:background="#FF5722"
+        android:background="?android:attr/selectableItemBackground"
+        android:backgroundTint="#2196F3"
         android:visibility="gone"
         android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:nextFocusDown="@id/btnWriteSettings"
         android:layout_marginBottom="15dp" />
 
     <!-- WRITE_SETTINGS Permission Button -->
@@ -49,9 +62,12 @@
         android:text="📝 GRANT WRITE_SETTINGS PERMISSION"
         android:textSize="18sp"
         android:textColor="#FFFFFF"
-        android:background="#FF9800"
+        android:background="?android:attr/selectableItemBackground"
+        android:backgroundTint="#4CAF50"
         android:visibility="gone"
         android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:nextFocusUp="@id/btnSetup"
         android:layout_marginBottom="20dp" />
 
     <!-- Usage Guide -->
